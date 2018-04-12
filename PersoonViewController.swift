@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class PersoonViewController: UIViewController {
+class PersoonViewController: UIViewController, MKMapViewDelegate {
 
     var persoon:Persoon?
     

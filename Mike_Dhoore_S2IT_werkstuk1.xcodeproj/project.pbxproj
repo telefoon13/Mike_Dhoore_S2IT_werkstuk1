@@ -17,6 +17,7 @@
 		3F1C5D45207F5826003CDD92 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D44207F5826003CDD92 /* Persoon.swift */; };
 		3F1C5D48207F74DD003CDD92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1C5D47207F74DD003CDD92 /* MapKit.framework */; };
 		3F1C5D4C207F7A4E003CDD92 /* FotoGrootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D4B207F7A4E003CDD92 /* FotoGrootViewController.swift */; };
+		3F1C5D4E207F9136003CDD92 /* Personen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D4D207F9136003CDD92 /* Personen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3F1C5D44207F5826003CDD92 /* Persoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 		3F1C5D47207F74DD003CDD92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3F1C5D4B207F7A4E003CDD92 /* FotoGrootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FotoGrootViewController.swift; path = ../FotoGrootViewController.swift; sourceTree = "<group>"; };
+		3F1C5D4D207F9136003CDD92 /* Personen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				3F1C5D4B207F7A4E003CDD92 /* FotoGrootViewController.swift */,
 				3F1C5D34207F49AE003CDD92 /* Main.storyboard */,
 				3F1C5D44207F5826003CDD92 /* Persoon.swift */,
+				3F1C5D4D207F9136003CDD92 /* Personen.swift */,
 				3F1C5D37207F49AE003CDD92 /* Assets.xcassets */,
 				3F1C5D39207F49AE003CDD92 /* LaunchScreen.storyboard */,
 				3F1C5D3C207F49AE003CDD92 /* Info.plist */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1C5D33207F49AE003CDD92 /* SecondViewController.swift in Sources */,
+				3F1C5D4E207F9136003CDD92 /* Personen.swift in Sources */,
 				3F1C5D2F207F49AE003CDD92 /* AppDelegate.swift in Sources */,
 				3F1C5D4C207F7A4E003CDD92 /* FotoGrootViewController.swift in Sources */,
 				3F1C5D45207F5826003CDD92 /* Persoon.swift in Sources */,
