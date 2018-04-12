@@ -60,7 +60,7 @@
         <!--Alle personen-->
         <scene sceneID="533-if-rJg">
             <objects>
-                <tableViewController id="VBF-y9-1rE" customClass="FirstViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Alle personen" id="VBF-y9-1rE" customClass="FirstViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qtu-mA-NhK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,6 +73,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.1461808436" blue="0.16497976110000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <segue destination="Ohe-hF-3We" kind="show" id="fLb-RE-3Hk"/>
                                 </connections>
@@ -165,7 +166,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.44855311093525796" blue="0.49516825145599552" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="uCr-6i-Y3T">
                         <barButtonItem key="backBarButtonItem" title="Terug" id="zGC-8s-xAc"/>
@@ -205,7 +206,7 @@
                                 <rect key="frame" x="16" y="140" width="288" height="288"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.14618084356467842" blue="0.16497976113852952" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="zoT-4y-u72" firstAttribute="top" secondItem="6Py-f6-RG6" secondAttribute="bottom" constant="120" id="Cbc-ZD-YE3"/>
                             <constraint firstItem="zoT-4y-u72" firstAttribute="leading" secondItem="Amn-xv-zMQ" secondAttribute="leadingMargin" id="XTR-ty-M3w"/>
