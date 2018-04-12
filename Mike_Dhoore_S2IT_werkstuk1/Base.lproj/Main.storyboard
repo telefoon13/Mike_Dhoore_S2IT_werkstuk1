@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -102,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="1796.25" y="-375"/>
         </scene>
-        <!--Title-->
+        <!--PersoonDetail-->
         <scene sceneID="5hq-ml-qQw">
             <objects>
-                <viewController id="Ohe-hF-3We" customClass="PersoonViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PersoonDetail" id="Ohe-hF-3We" customClass="PersoonViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e7X-kD-wNz"/>
                         <viewControllerLayoutGuide type="bottom" id="fgF-Su-b1o"/>
@@ -113,13 +114,128 @@
                     <view key="view" contentMode="scaleToFill" id="EYE-00-Jau">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7f0-iG-vfU">
+                                <rect key="frame" x="100" y="72" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XTy-Q2-s5u" appends="YES" id="sA8-3O-zSl"/>
+                                </connections>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gk3-JR-OsQ">
+                                <rect key="frame" x="16" y="343" width="288" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Naam :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZdI-Fz-0wu">
+                                <rect key="frame" x="16" y="215" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nummer :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtw-zO-11R">
+                                <rect key="frame" x="16" y="244" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adres :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xL6-xF-um0">
+                                <rect key="frame" x="16" y="273" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="naam hier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-pf-HFP">
+                                <rect key="frame" x="109" y="215" width="195" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nummer hier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT7-iv-fi0">
+                                <rect key="frame" x="109" y="244" width="195" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="straat + nummer hier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aV-cY-wrf">
+                                <rect key="frame" x="109" y="273" width="195" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="postcode + gemeente hier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arI-uB-Ndb">
+                                <rect key="frame" x="109" y="302" width="195" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="uCr-6i-Y3T"/>
+                    <navigationItem key="navigationItem" title="Title" id="uCr-6i-Y3T">
+                        <barButtonItem key="backBarButtonItem" title="Terug" id="zGC-8s-xAc"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="fotoIV" destination="7f0-iG-vfU" id="nYY-7n-jpY"/>
+                        <outlet property="gemeenteLbl" destination="arI-uB-Ndb" id="H5K-8S-JBH"/>
+                        <outlet property="map" destination="gk3-JR-OsQ" id="wpG-lb-VlZ"/>
+                        <outlet property="naamLbl" destination="cIe-pf-HFP" id="kQW-4Y-FaP"/>
+                        <outlet property="navItem" destination="uCr-6i-Y3T" id="gRB-K8-DGC"/>
+                        <outlet property="nummerLbl" destination="LT7-iv-fi0" id="XVt-3H-oq5"/>
+                        <outlet property="straatLbl" destination="3aV-cY-wrf" id="gWa-PC-UNa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNO-1I-mxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="XTy-Q2-s5u">
+                    <connections>
+                        <segue destination="5mo-xI-UML" kind="show" id="gX8-JP-TEk"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2576" y="-378"/>
+            <point key="canvasLocation" x="2574.375" y="-378.16901408450707"/>
+        </scene>
+        <!--FotoGroot-->
+        <scene sceneID="UIQ-mu-i9A">
+            <objects>
+                <viewController title="FotoGroot" id="5mo-xI-UML" customClass="FotoGrootViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Py-f6-RG6"/>
+                        <viewControllerLayoutGuide type="bottom" id="bRt-Mw-XVu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Amn-xv-zMQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zoT-4y-u72">
+                                <rect key="frame" x="16" y="140" width="288" height="288"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="top" secondItem="6Py-f6-RG6" secondAttribute="bottom" constant="120" id="Cbc-ZD-YE3"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="leading" secondItem="Amn-xv-zMQ" secondAttribute="leadingMargin" id="XTR-ty-M3w"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="trailing" secondItem="Amn-xv-zMQ" secondAttribute="trailingMargin" id="lvA-6p-ROX"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="centerY" secondItem="Amn-xv-zMQ" secondAttribute="centerY" id="oAC-8t-6nC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nxq-7Q-Jy7">
+                        <barButtonItem key="backBarButtonItem" title="terug" id="kcH-WM-pI8"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="fotoGroot" destination="zoT-4y-u72" id="lrT-ZD-sbh"/>
+                        <outlet property="navItem" destination="Nxq-7Q-Jy7" id="PU8-CF-vhs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3U9-bB-M57" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3345" y="-385.56338028169017"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3RT-rG-bEy">

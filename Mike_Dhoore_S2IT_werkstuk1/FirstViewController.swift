@@ -83,7 +83,7 @@ class FirstViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         
         cell.textLabel?.text = personen[indexPath.row].vNaam + " " + personen[indexPath.row].naam
-        
+        cell.imageView?.image = UIImage(named: personen[indexPath.row].foto)
         // Configure the cell...
         
         return cell

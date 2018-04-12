@@ -15,6 +15,8 @@
 		3F1C5D3B207F49AE003CDD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C5D39207F49AE003CDD92 /* LaunchScreen.storyboard */; };
 		3F1C5D43207F4E88003CDD92 /* PersoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D42207F4E88003CDD92 /* PersoonViewController.swift */; };
 		3F1C5D45207F5826003CDD92 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D44207F5826003CDD92 /* Persoon.swift */; };
+		3F1C5D48207F74DD003CDD92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1C5D47207F74DD003CDD92 /* MapKit.framework */; };
+		3F1C5D4C207F7A4E003CDD92 /* FotoGrootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D4B207F7A4E003CDD92 /* FotoGrootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3F1C5D3C207F49AE003CDD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1C5D42207F4E88003CDD92 /* PersoonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersoonViewController.swift; path = ../PersoonViewController.swift; sourceTree = "<group>"; };
 		3F1C5D44207F5826003CDD92 /* Persoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		3F1C5D47207F74DD003CDD92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F1C5D4B207F7A4E003CDD92 /* FotoGrootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FotoGrootViewController.swift; path = ../FotoGrootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1C5D48207F74DD003CDD92 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,7 @@
 			children = (
 				3F1C5D2D207F49AE003CDD92 /* Mike_Dhoore_S2IT_werkstuk1 */,
 				3F1C5D2C207F49AE003CDD92 /* Products */,
+				3F1C5D46207F74DD003CDD92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +70,7 @@
 				3F1C5D30207F49AE003CDD92 /* FirstViewController.swift */,
 				3F1C5D32207F49AE003CDD92 /* SecondViewController.swift */,
 				3F1C5D42207F4E88003CDD92 /* PersoonViewController.swift */,
+				3F1C5D4B207F7A4E003CDD92 /* FotoGrootViewController.swift */,
 				3F1C5D34207F49AE003CDD92 /* Main.storyboard */,
 				3F1C5D44207F5826003CDD92 /* Persoon.swift */,
 				3F1C5D37207F49AE003CDD92 /* Assets.xcassets */,
@@ -71,6 +78,14 @@
 				3F1C5D3C207F49AE003CDD92 /* Info.plist */,
 			);
 			path = Mike_Dhoore_S2IT_werkstuk1;
+			sourceTree = "<group>";
+		};
+		3F1C5D46207F74DD003CDD92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C5D47207F74DD003CDD92 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +162,7 @@
 			files = (
 				3F1C5D33207F49AE003CDD92 /* SecondViewController.swift in Sources */,
 				3F1C5D2F207F49AE003CDD92 /* AppDelegate.swift in Sources */,
+				3F1C5D4C207F7A4E003CDD92 /* FotoGrootViewController.swift in Sources */,
 				3F1C5D45207F5826003CDD92 /* Persoon.swift in Sources */,
 				3F1C5D31207F49AE003CDD92 /* FirstViewController.swift in Sources */,
 				3F1C5D43207F4E88003CDD92 /* PersoonViewController.swift in Sources */,
