@@ -84,6 +84,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Ohe-hF-3We" kind="show" id="fLb-RE-3Hk"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -91,11 +94,32 @@
                             <outlet property="delegate" destination="VBF-y9-1rE" id="OP1-VJ-afE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Alle personen" id="PMd-E8-sPT"/>
+                    <navigationItem key="navigationItem" title="Alle personen" id="PMd-E8-sPT">
+                        <barButtonItem key="backBarButtonItem" title="Terug" id="kvn-g1-DT2"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bfn-HO-vTq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1796.25" y="-375"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="5hq-ml-qQw">
+            <objects>
+                <viewController id="Ohe-hF-3We" customClass="PersoonViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e7X-kD-wNz"/>
+                        <viewControllerLayoutGuide type="bottom" id="fgF-Su-b1o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EYE-00-Jau">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="uCr-6i-Y3T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aNO-1I-mxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2576" y="-378"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3RT-rG-bEy">

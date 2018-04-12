@@ -10,11 +10,11 @@ import UIKit
 
 class PersoonViewController: UIViewController {
 
-    var boek:String?
+    var persoon:Persoon?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = (persoon?.vNaam)! + " " + (persoon?.naam)!
         // Do any additional setup after loading the view.
     }
 
