@@ -13,6 +13,7 @@
 		3F1C5D36207F49AE003CDD92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C5D34207F49AE003CDD92 /* Main.storyboard */; };
 		3F1C5D38207F49AE003CDD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C5D37207F49AE003CDD92 /* Assets.xcassets */; };
 		3F1C5D3B207F49AE003CDD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C5D39207F49AE003CDD92 /* LaunchScreen.storyboard */; };
+		3F1C5D43207F4E88003CDD92 /* PersoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C5D42207F4E88003CDD92 /* PersoonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3F1C5D37207F49AE003CDD92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1C5D3A207F49AE003CDD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1C5D3C207F49AE003CDD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C5D42207F4E88003CDD92 /* PersoonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersoonViewController.swift; path = ../PersoonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3F1C5D2E207F49AE003CDD92 /* AppDelegate.swift */,
 				3F1C5D30207F49AE003CDD92 /* FirstViewController.swift */,
 				3F1C5D32207F49AE003CDD92 /* SecondViewController.swift */,
+				3F1C5D42207F4E88003CDD92 /* PersoonViewController.swift */,
 				3F1C5D34207F49AE003CDD92 /* Main.storyboard */,
 				3F1C5D37207F49AE003CDD92 /* Assets.xcassets */,
 				3F1C5D39207F49AE003CDD92 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				3F1C5D33207F49AE003CDD92 /* SecondViewController.swift in Sources */,
 				3F1C5D2F207F49AE003CDD92 /* AppDelegate.swift in Sources */,
 				3F1C5D31207F49AE003CDD92 /* FirstViewController.swift in Sources */,
+				3F1C5D43207F4E88003CDD92 /* PersoonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
