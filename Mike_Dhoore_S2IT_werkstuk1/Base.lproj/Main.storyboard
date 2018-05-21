@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second View Controller-->
+        <!--Find Friends-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="FindFriends" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -65,7 +65,7 @@
         <!--Alle personen-->
         <scene sceneID="533-if-rJg">
             <objects>
-                <tableViewController title="Alle personen" id="VBF-y9-1rE" customClass="FirstViewController" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Alle personen" id="VBF-y9-1rE" customClass="PersonenLijst" customModule="Mike_Dhoore_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qtu-mA-NhK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

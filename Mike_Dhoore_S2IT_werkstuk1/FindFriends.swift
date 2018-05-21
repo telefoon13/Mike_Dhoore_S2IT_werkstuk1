@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class SecondViewController: UIViewController, CLLocationManagerDelegate {
+class FindFriends: UIViewController, CLLocationManagerDelegate {
 
     var personen = Personen.init().personen
     @IBOutlet weak var map: MKMapView!

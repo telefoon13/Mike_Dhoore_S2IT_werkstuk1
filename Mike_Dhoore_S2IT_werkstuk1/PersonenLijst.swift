@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class FirstViewController: UITableViewController {
+class PersonenLijst: UITableViewController {
 
     var personen = Personen.init().personen
     
