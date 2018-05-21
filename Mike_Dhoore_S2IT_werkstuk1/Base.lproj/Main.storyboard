@@ -70,7 +70,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zbf-hc-4R4" id="NaT-kl-MCI">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="0.1461808436" blue="0.16497976110000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -202,16 +202,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zoT-4y-u72">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zoT-4y-u72">
                                 <rect key="frame" x="16" y="140" width="288" height="288"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.14618084356467842" blue="0.16497976113852952" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="zoT-4y-u72" firstAttribute="top" secondItem="6Py-f6-RG6" secondAttribute="bottom" constant="120" id="Cbc-ZD-YE3"/>
-                            <constraint firstItem="zoT-4y-u72" firstAttribute="leading" secondItem="Amn-xv-zMQ" secondAttribute="leadingMargin" id="XTR-ty-M3w"/>
-                            <constraint firstItem="zoT-4y-u72" firstAttribute="trailing" secondItem="Amn-xv-zMQ" secondAttribute="trailingMargin" id="lvA-6p-ROX"/>
-                            <constraint firstItem="zoT-4y-u72" firstAttribute="centerY" secondItem="Amn-xv-zMQ" secondAttribute="centerY" id="oAC-8t-6nC"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="leading" secondItem="Amn-xv-zMQ" secondAttribute="leadingMargin" id="W47-G2-i07"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="top" secondItem="6Py-f6-RG6" secondAttribute="bottom" constant="120" id="dQX-kt-NsO"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="centerY" secondItem="Amn-xv-zMQ" secondAttribute="centerY" id="sy4-C5-5km"/>
+                            <constraint firstItem="zoT-4y-u72" firstAttribute="trailing" secondItem="Amn-xv-zMQ" secondAttribute="trailingMargin" id="syi-h7-bzI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nxq-7Q-Jy7">
